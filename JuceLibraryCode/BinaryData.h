@@ -54,10 +54,10 @@ namespace BinaryData
     const int            helm_icon_512_2x_pngSize = 137623;
 
     extern const char*   modulation_selected_active_1x_png;
-    const int            modulation_selected_active_1x_pngSize = 2739;
+    const int            modulation_selected_active_1x_pngSize = 3254;
 
     extern const char*   modulation_selected_active_2x_png;
-    const int            modulation_selected_active_2x_pngSize = 6228;
+    const int            modulation_selected_active_2x_pngSize = 5389;
 
     extern const char*   modulation_selected_inactive_1x_png;
     const int            modulation_selected_inactive_1x_pngSize = 2783;
@@ -66,10 +66,10 @@ namespace BinaryData
     const int            modulation_selected_inactive_2x_pngSize = 6264;
 
     extern const char*   modulation_unselected_active_1x_png;
-    const int            modulation_unselected_active_1x_pngSize = 2529;
+    const int            modulation_unselected_active_1x_pngSize = 2853;
 
     extern const char*   modulation_unselected_active_2x_png;
-    const int            modulation_unselected_active_2x_pngSize = 5267;
+    const int            modulation_unselected_active_2x_pngSize = 4455;
 
     extern const char*   modulation_unselected_inactive_1x_png;
     const int            modulation_unselected_inactive_1x_pngSize = 2314;

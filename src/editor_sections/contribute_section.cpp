@@ -113,7 +113,7 @@ ContributeSection::ContributeSection(String name) : Overlay(name) {
   custom_amount_->setColour(TextEditor::highlightColourId, Colour(0xff888888));
   custom_amount_->setColour(TextEditor::backgroundColourId, Colour(0xff323232));
   custom_amount_->setColour(TextEditor::outlineColourId, Colour(0xff888888));
-  custom_amount_->setColour(TextEditor::focusedOutlineColourId, Colour(0xffffab00));
+  custom_amount_->setColour(TextEditor::focusedOutlineColourId, Colour(0xffffbc44));
 
   pay_button_ = new TextButton(TRANS("Pay"));
   addAndMakeVisible(pay_button_);

@@ -16,14 +16,14 @@
 
 #include "colors.h"
 
-const Colour Colors::background(0xff181818);
-const Colour Colors::tab_heading(0xff303030);
-const Colour Colors::tab_body(0xff303030);
-const Colour Colors::tab_heading_text(0xffbbbbbb);
-const Colour Colors::audio(0xff03a9f4);
-const Colour Colors::modulation(0xff00e676);
-const Colour Colors::graph_disable(0xff777777);
-const Colour Colors::graph_fill(0xff565656);
-const Colour Colors::control_label_text(0xffbbbbbb);
+const Colour Colors::background(0xff161719);
+const Colour Colors::tab_heading(0xff1e1f21);
+const Colour Colors::tab_body(0xff1e1f21);
+const Colour Colors::tab_heading_text(0xffffffff);
+const Colour Colors::audio(0xff00f1fe);
+const Colour Colors::modulation(0xfffe005a);
+const Colour Colors::graph_disable(0xff656668);
+const Colour Colors::graph_fill(0xff444547);
+const Colour Colors::control_label_text(0xffffffff);
 const Colour Colors::info_background(0xff303030);
 const Colour Colors::overlay_screen(0xbb212121);

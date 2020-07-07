@@ -169,7 +169,7 @@ void DefaultLookAndFeel::drawRotarySlider(Graphics& g, int x, int y, int width, 
   }
 
   if (active)
-    g.setColour(Colour(0xffffab00));
+    g.setColour(Colour(0xffffbc44));
   else
     g.setColour(Colour(0xff555555));
 

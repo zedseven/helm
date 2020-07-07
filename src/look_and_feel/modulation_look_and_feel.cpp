@@ -40,19 +40,19 @@ void ModulationLookAndFeel::drawLinearSlider(Graphics& g, int x, int y, int widt
   float mod_percentage = slider.getValue() / destination_range;
 
   if (mod_percentage == 0.0) {
-    g.setColour(Colour(0x11b9f6ca));
+    g.setColour(Colour(0x11008a90));
     g.fillRect(0, 0, slider.getWidth(), slider.getHeight());
-    g.setColour(Colour(0xffb9f6ca));
+    g.setColour(Colour(0xff008a90));
     g.drawRect(0, 0, slider.getWidth(), slider.getHeight(), 1);
   }
   else {
-    g.setColour(Colour(0x1100e676));
+    g.setColour(Colour(0x1100426c));
     g.fillRect(0, 0, slider.getWidth(), slider.getHeight());
     g.setColour(Colors::modulation);
     g.drawRect(0.0f, 0.0f, float(slider.getWidth()), float(slider.getHeight()), 2.5f);
   }
 
-  g.setColour(Colour(0x5500e676));
+  g.setColour(Colour(0x5500426c));
 
   if (style == Slider::SliderStyle::LinearBar) {
     float destination_position = width * destination_percentage;
@@ -83,19 +83,19 @@ void ModulationLookAndFeel::drawLinearSliderThumb(Graphics& g, int x, int y, int
 
 void ModulationLookAndFeel::drawTextModulation(Graphics& g, Slider& slider, float percent) {
   if (percent == 0.0f) {
-    g.setColour(Colour(0x11b9f6ca));
+    g.setColour(Colour(0x11008a90));
     g.fillRect(0, 0, slider.getWidth(), slider.getHeight());
-    g.setColour(Colour(0xffb9f6ca));
+    g.setColour(Colour(0xff008a90));
     g.drawRect(0, 0, slider.getWidth(), slider.getHeight(), 1);
   }
   else {
-    g.setColour(Colour(0x1100e676));
+    g.setColour(Colour(0x1100426c));
     g.fillRect(0, 0, slider.getWidth(), slider.getHeight());
     g.setColour(Colors::modulation);
     g.drawRect(0.0f, 0.0f, float(slider.getWidth()), float(slider.getHeight()), 2.5f);
   }
 
-  g.setColour(Colour(0x5500e676));
+  g.setColour(Colour(0x5500426c));
 
   if (percent < 0.0f) {
     g.fillRect(2.5f, 2.5f, slider.getWidth() - 5.0f, -percent * (slider.getHeight() - 5.0f));
@@ -132,7 +132,7 @@ void ModulationLookAndFeel::drawRotarySlider(Graphics& g, int x, int y, int widt
       PathStrokeType(knob_radius, PathStrokeType::beveled, PathStrokeType::butt);
 
   if (mod_diff == 0.0) {
-    g.setColour(Colour(0x33b9f6ca));
+    g.setColour(Colour(0x33008a90));
     g.fillEllipse(width / 2.0f - knob_radius, height / 2.0f - knob_radius,
                   2.0 * knob_radius, 2.0 * knob_radius);
     g.setColour(Colors::modulation);
@@ -140,7 +140,7 @@ void ModulationLookAndFeel::drawRotarySlider(Graphics& g, int x, int y, int widt
                   2.0f * knob_radius - 1.0f, 2.0f * knob_radius - 1.0f, 1.0f);
   }
   else {
-    g.setColour(Colour(0xaa00e676));
+    g.setColour(Colour(0xaa00426c));
     g.fillEllipse(width / 2.0f - knob_radius, height / 2.0f - knob_radius,
                   2.0 * knob_radius, 2.0 * knob_radius);
     g.setColour(Colors::modulation);
@@ -157,7 +157,7 @@ void ModulationLookAndFeel::drawRotarySlider(Graphics& g, int x, int y, int widt
   active_section.addCentredArc(center_x, center_y, knob_radius / 2.0, knob_radius / 2.0,
                                destination_angle, mod_diff, 0, true);
 
-  g.setColour(Colour(0xff69f0ae));
+  g.setColour(Colour(0xff0064a2));
   g.strokePath(active_section, stroke_type);
 
   float end_x = draw_radius + 0.9f * knob_radius * sin(destination_angle + mod_diff);

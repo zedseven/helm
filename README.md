@@ -1,5 +1,9 @@
 ## Helm
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 Helm is a free, cross-platform, polyphonic synthesizer that runs on GNU/Linux, Mac, and Windows as a standalone program and as a LV2/VST/AU/AAX plugin. Release is in beta so there are outstanding bugs. Please send any bugs found to matthewtytel@gmail.com
+
+Just a fork that changes the colour scheme to match the [LVMG ONE PinkyBlue](https://www.lvmgone.com/theme-pinkyblue-more-infos/) theme I use for my DAW.
 
 ### Installing:
 Go to [tytel.org/helm](http://tytel.org/helm) for builds.
